@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacia Chirripó</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <!-- Barra de menú -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <input type="text" id="search" placeholder="Buscar...">
+        </nav>
+    </header>
+
+    <!-- Selector de color -->
+    <section id="color-selector">
+        <label for="color">Selecciona un color de fondo:</label>
+        <input type="color" id="bg-color-picker" name="bg-color" value="#ffffff">
+    </section>
+
+    <!-- Carrusel -->
+    <section id="carrusel">
+        <div class="slide" id="slide1"><img src="/img/enjuague bucal.jpeg" alt="kjejhf"></div>
+        <div class="slide" id="slide2"><img src="/img/todas las edades.jpeg" alt="jedg"></div>
+        <div class="slide" id="slide3"><img src="/img/vitaminas.jpeg" alt="fhgae"></div>
+    </section>
+
+    <!-- Catálogo de productos -->
+    <section id="productos">
+        <h1>Nuestros Productos</h1>
+        <div class="product-card">
+            <img src="/img/crema chirripo.png" alt="Producto 1">
+            <h2> Crema Reparadora "Chirripó"</h2>
+            <p>Una crema hidratante y reparadora, formulada con extractos naturales <br>
+                 del Cerro Chirripó. Ideal para pieles sensibles y resecas, <br>
+                  ofrece una capa de protección contra los elementos y ayuda <br>
+                   a restaurar la elasticidad natural de la piel. <br>
+                   Aplicar diariamente para mantener la piel suave y nutrida.</p>
+        </div>
+        <div class="product-card">
+            <img src="/img/altura vital.png" alt="Producto 2">
+            <h2> Cápsulas de Energía "Altura Vital"</h2>
+            <p>Estas cápsulas contienen una mezcla de vitaminas y minerales <br>
+                 esenciales para combatir el cansancio y mejorar el rendimiento <br>
+                  Inspiradas en los nutrientes de las plantas que crecen a gran altitud,<br>
+                   "Altura Vital" te ayuda a mantener la energía y vitalidad durante todo el día.</p>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Farmacia Chirripó. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="/js/scripts.js"></script>
+</body>
+</html>

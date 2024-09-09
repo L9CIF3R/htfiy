@@ -1,0 +1,102 @@
+/* Paleta de colores */
+:root {
+    --azul: #1E90FF;
+    --blanco: #FFFFFF;
+    --beige: #F5F5DC;
+}
+
+/* General */
+body {
+    font-family: Verdana, sans-serif;
+    background-color: var(--blanco);
+    color: var(--azul);
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de menú */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--azul);
+    padding: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav a {
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* Selector de color */
+#color-selector {
+    margin: 20px;
+}
+
+#bg-color-picker {
+    width: 100px;
+}
+
+/* Carrusel */
+#carrusel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    margin: 20px 0;
+}
+
+.slide {
+    min-width: 100%;
+    background-color: var(--beige);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-family: Georgia, serif;
+    color: var(--azul);
+}
+
+/* Catálogo de productos */
+#productos {
+    padding: 20px;
+}
+
+.product-card {
+    display: inline-block;
+    width: 200px;
+    margin: 15px;
+    text-align: center;
+    background-color: var(--beige);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+    border: 5px dotted var(--azul);
+}
+
+.product-card h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: var(--azul);
+    color: var(--blanco);
+    text-align: center;
+    padding: 10px;
+}
